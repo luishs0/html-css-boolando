@@ -3,3 +3,57 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* HEADER */
+
+header {
+    background-color: #ff6801;
+
+    /* DEBUG */
+    height: 10vh;
+    width: 100%;
+}
+
+/* /HEADER */
+
+/* MAIN */
+
+/* utility */
+.mt {
+    margin-top: 2.5rem;
+}
+
+/* /uility */
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: calc(100% / 3 - 15px);
+    margin-bottom: 1rem;
+
+    /* DEBUG */
+    height: 450px;
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+/* /MAIN */
+
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+
+    /* DEBUG */
+    height: 12vh;
+}
+
+/* /FOOTER */
