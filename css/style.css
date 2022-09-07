@@ -180,11 +180,49 @@ color: white;
 /* FOOTER */
 
 footer {
-    background-color: black;
+    background-color: #1a1a1a;
 
     /* DEBUG */
     height: 12vh;
+    width: 100%;
 }
 
+.containerfooter {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section1-footer {
+    color: white;
+    padding: 1rem;
+}
+
+.section1-footer h4 {
+    margin-bottom: 1rem;
+}
+
+.section1-footer ul {
+    display: flex;
+   list-style-type: none;
+}
+
+.section1-footer ul li {
+    margin-right: 1rem;
+    font-size: .9rem;
+}
+
+.section2-footer{
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.section2-footer > div {
+    margin-bottom: .8rem;
+}
 /* /FOOTER */
 
