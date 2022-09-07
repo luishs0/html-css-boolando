@@ -78,6 +78,11 @@ color: white;
     justify-content: space-between;
 }
 
+.label-container {
+    width: 100%;
+    
+}
+
 .card {
     width: calc(100% / 3 - 15px);
     margin-bottom: 3rem;
@@ -89,6 +94,10 @@ color: white;
 }
 
 /* IMG */
+.img {
+    position: relative;
+}
+
 .card .img img {
     max-width: 100%;
 }
