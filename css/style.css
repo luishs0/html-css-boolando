@@ -14,6 +14,8 @@ html {
 header {
     background-color: #ff6801;
     position: fixed;
+    top: 0;
+    left: 0;
     /* DEBUG */
     width: 100%;
     height: 80px;
